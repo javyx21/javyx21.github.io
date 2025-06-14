@@ -38,3 +38,17 @@ Gracias, mamá, por caminar a mi lado cuando no sabía hacia dónde ir, por apla
 Todo lo que soy también es gracias a ti.  
 Este espacio, y cada esfuerzo que pongo en construir un mundo más accesible, también llevan tu nombre.  
 **Te amo.**
+
+
+## Mi familia, mi raíz 🌿
+
+
+Aunque la distancia nos separe, el lazo que me une a mi hermana **Elizabeth** sigue intacto, firme y lleno de amor. Su presencia, aunque lejana físicamente, está siempre conmigo en pensamiento, en apoyo y en esos recuerdos que me hacen sonreír incluso en los días difíciles.
+
+Y no solo ella. También están mis sobrinos, mis hermanos, mis tías... mi familia entera.  
+Son ellos quienes, sin saberlo muchas veces, han sido motores silenciosos de mi crecimiento, refugios en la tormenta y razones para seguir luchando con alegría.
+
+Gracias a cada uno de ustedes, hoy me siento orgulloso de lo que soy.  
+No solo por lo que he logrado, sino por las raíces que me sostienen y el amor que me impulsa.
+
+**Este camino también es de ustedes. Los llevo siempre conmigo.**
