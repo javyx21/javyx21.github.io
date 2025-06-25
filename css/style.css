@@ -1,1 +1,115 @@
 
+/* Estilos CSS accesibles para Franklin Accesible */
+
+/* Reseteo básico para asegurar consistencia entre navegadores */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Añadido para mejor control del tamaño de los elementos */
+}
+
+/* Estilos generales del cuerpo */
+body {
+    font-family: Arial, sans-serif; /* Fuente legible y común para accesibilidad */
+    line-height: 1.6; /* Espaciado de línea para mejor legibilidad (WCAG) */
+    color: #333; /* Color de texto oscuro para buen contraste (WCAG) */
+    background-color: #f4f4f4; /* Fondo claro para mayor contraste y comodidad visual */
+    padding: 20px; /* Un poco de padding general para no pegar el contenido a los bordes */
+}
+
+/* Estilos del encabezado (header) */
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff; /* Fondo blanco para el encabezado */
+    border-bottom: 1px solid #ddd; /* Línea sutil en la parte inferior */
+    margin-bottom: 30px;
+}
+
+/* Estilos del logo */
+header img {
+    max-width: 150px; /* Tamaño máximo para el logo */
+    height: auto; /* Mantiene la proporción */
+    display: block; /* Para que margin: auto funcione correctamente para centrar */
+    margin: 0 auto 10px auto; /* Centra el logo y le da un poco de espacio abajo */
+    border-radius: 5px; /* Ligeramente redondeado para suavizar los bordes */
+}
+
+/* Estilos del título principal del sitio */
+header h1 {
+    color: #0056b3; /* Un azul corporativo para la marca Franklin Accesible */
+    font-size: 2.2em; /* Tamaño de fuente más grande para el título principal */
+    margin-bottom: 20px; /* Espacio debajo del título */
+}
+
+/* Estilos de la navegación (nav) */
+nav ul {
+    list-style: none; /* Quita los puntos predeterminados de la lista */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Elementos en línea para un menú horizontal */
+    margin: 0 15px; /* Espacio horizontal entre cada elemento del menú */
+}
+
+nav ul li a {
+    text-decoration: none; /* Quita el subrayado predeterminado de los enlaces */
+    color: #0056b3; /* Color azul para los enlaces de navegación */
+    font-weight: bold; /* Negrita para destacar y mejorar legibilidad */
+    padding: 5px 0; /* Padding para que el área de clic/enfoque sea más grande */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transición suave para efectos hover/focus */
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #007bff; /* Color ligeramente más claro al pasar el ratón o enfocar */
+    text-decoration: underline; /* Subrayado al pasar el ratón o enfocar ( crucial para accesibilidad y usabilidad) */
+    outline: 2px solid transparent; /* Para quitar el outline por defecto pero prepararse para un outline custom */
+    outline-offset: 2px; /* Espacio entre el elemento y el outline */
+}
+
+/* Estilos de la sección principal (main content) */
+main {
+    max-width: 960px; /* Ancho máximo para el contenido para evitar líneas de texto demasiado largas */
+    margin: 0 auto; /* Centra el bloque de contenido principal en la página */
+    background-color: #fff; /* Fondo blanco para el área de contenido principal */
+    padding: 20px 30px; /* Espacio interno dentro del bloque de contenido */
+    border-radius: 8px; /* Bordes ligeramente redondeados para una apariencia moderna */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil para dar un efecto de profundidad */
+}
+
+main h2 {
+    color: #0056b3; /* Color azul para los subtítulos dentro del contenido principal */
+    font-size: 1.8em; /* Tamaño de fuente para los subtítulos */
+    margin-bottom: 15px; /* Espacio debajo de los subtítulos */
+}
+
+main p {
+    margin-bottom: 15px; /* Espacio entre párrafos */
+}
+
+/* Estilos del enlace de YouTube */
+main a.youtube-link { /* Le añadiremos una clase para distinguirlo de otros enlaces */
+    color: #dc3545; /* Rojo para un enlace de YouTube (color de marca) */
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block; /* Para que padding funcione correctamente si se añade */
+    margin-top: 10px; /* Espacio por encima del enlace */
+}
+
+main a.youtube-link:hover,
+main a.youtube-link:focus {
+    text-decoration: underline;
+    outline: 2px solid #dc3545; /* Outline de enfoque para accesibilidad */
+    outline-offset: 2px;
+}
+
+/* Estilos del pie de página (footer) */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+    color: #666; /* Color gris para el texto del footer (asegurar contraste) */
+    font-size: 0.9em; /* Tamaño de fuente un poco más pequeño */
+}
